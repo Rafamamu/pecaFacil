@@ -8,6 +8,13 @@ public class PecaFacilApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PecaFacilApplication.class, args);
+
+		System.out.println("Aplicação iniciada com sucesso...");
+
+
+
+
+
 	}
 
 }

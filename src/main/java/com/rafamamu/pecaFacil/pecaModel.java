@@ -18,4 +18,7 @@ public class pecaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String codigo;
+    private String nome;
+    private int quantidade;
 }
