@@ -28,4 +28,6 @@ public class PecaModel {
 
     @Column(name = "quantidade", nullable = false)
     private int quantidade;
+
 }
+
