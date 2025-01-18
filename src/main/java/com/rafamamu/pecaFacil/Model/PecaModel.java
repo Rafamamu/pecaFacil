@@ -1,4 +1,4 @@
-package com.rafamamu.pecaFacil;
+package com.rafamamu.pecaFacil.Model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
