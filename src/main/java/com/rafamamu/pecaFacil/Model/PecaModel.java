@@ -29,5 +29,15 @@ public class PecaModel {
     @Column(name = "quantidade", nullable = false)
     private int quantidade;
 
+    @ManyToOne
+    @JoinColumn(name = "cliente_id")
+    private ClienteModel clienteModel;
+
+    @Column(name = "numero_chamado")
+    private String numeroChamado;
+
+
+
+
 }
 
