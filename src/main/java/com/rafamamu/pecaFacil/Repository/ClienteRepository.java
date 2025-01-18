@@ -1,4 +1,7 @@
 package com.rafamamu.pecaFacil.Repository;
 
-public interface ClienteRepository {
+import com.rafamamu.pecaFacil.Model.ClienteModel;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClienteRepository extends JpaRepository<ClienteModel,String> {
 }
